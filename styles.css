@@ -1,0 +1,59 @@
+.taskcolumn {
+  border: 1px solid #999999;
+  display: inline-block;
+  width: 18%;
+  text-align: center;
+  border-radius: 10px;
+  min-height: 80vh;
+  vertical-align: top;
+}
+
+h3 {
+  background: orange;
+  margin: 0;
+  border-radius: 10px 10px 0px 0px;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.card {
+  border: 1px solid #999999;
+  margin: 3px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px;
+  position: relative;
+  color:#fff;
+}
+
+input{
+  display:block;
+}
+
+.moveTaskButton{
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  color:#ffffff;
+}
+
+.deleteTaskButton{
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  color:#ffffff;
+}
+
+.addTaskButton{
+  border-radius: 5px;
+}
+
+body{
+  background: #333;
+  font-family: 'Lato', sans-serif;
+}
