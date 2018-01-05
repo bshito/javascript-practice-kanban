@@ -19,10 +19,12 @@ h3 {
 .card {
   border: 1px solid #999999;
   margin: 3px;
+  width: 90%;
   border-radius: 10px;
   box-shadow: 2px 2px 5px;
   position: relative;
   color:#fff;
+  display:inline-block;
 }
 
 input{
